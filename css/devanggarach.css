@@ -70,7 +70,7 @@ p.lead {
   text-align: center;
   font-size: 1.5rem;
   line-height: 3.5rem;
-  margin-right: 1rem;
+  margin: 5px 7px 5px 7px;
 }
 
 .social-icons a:last-child {
@@ -206,9 +206,29 @@ margin: 0px;
 
 }
 @media only screen and (max-width: 479px) {
-.change_h1toh2>h1{ font-size: 1.5em; }
+.change_h1toh2>h1{ font-size: 4em; }
 }
+@media only screen and (max-width: 479px) {
+h2{ font-size: 2.5em; }
+}
+
 @media only screen and (max-width: 768px) {
+#hide1{ 
+  visibility: hidden;
+  display: none; }
+}
+
+a[aria-expanded=true] .fa-angle-down {
+   display: none;
+}
+a[aria-expanded=false] .fa-angle-up {
+   display: none;
+}
+.card > .card-header a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
 #hide1{ 
   visibility: hidden;
   display: none; }
@@ -347,4 +367,19 @@ a[aria-expanded=false] .fa-angle-up {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+.title-modal {
+  color: #ffbc00;
+}
+.modal-header {
+  background-color: #ffbc00;
+}
+.modal-body p {
+  margin: -10px 0px 3px 0px;
+  color: #000;
+}
+.modal-body textarea {
+  margin: 4px 0px -10px 0px;
+  height: 60px;
+  font-size: 15px;
 }
