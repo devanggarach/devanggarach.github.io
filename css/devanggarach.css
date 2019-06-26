@@ -360,8 +360,12 @@ a[aria-expanded=false] .fa-angle-up {
   }
 }
 .carousel-item {
-  margin: 0px;
+  margin: 10px 0px 0px 0px;
 }
+.carousel-inner {
+  height: 245px;
+}
+
 .img-change {
   height: 154px;
   margin-left: auto;
